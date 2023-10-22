@@ -1,0 +1,56 @@
+.body {
+    background-image: url('https://img.freepik.com/free-vector/gray-fluid-background-frame_53876-99021.jpg?w=1380&t=st=1697891916~exp=1697892516~hmac=7886012c56c7b7b7f9c4f47f48e2e6de2499fa5a2549e7ee3bf848c2a255f5b4');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: system-ui;
+    font-size: larger;
+}
+
+.images {
+    position: relative;
+    border-style: outset;
+    border-color: #a0b9c9ba;
+    border-right-width: 5px;
+    border-left-width: 5px;
+    min-height: 250px;
+    max-height: 250px;
+    min-width: 250px;
+    max-width: 250px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+div#players {
+    position: relative;
+    width: 275px;
+    height: 275px;
+}
+
+#players:hover .players {
+    transition: 1s;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.players {
+    position: absolute;
+    left: 20px;
+    bottom: 10%;
+    text-transform: uppercase;
+    color: #f0f507;
+    opacity: 0;
+    transition: 2s;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.footer {
+    font-size: small;
+}
